@@ -19,7 +19,7 @@ export default function Feedback(props) {
             </div>
             <div className="second-child">
                 <div className="output">
-                    <img src="public/lyka.jpg"></img>
+                    <img src="lyka.jpg"></img>
                     <h1>{props.data}</h1>
                     <img src="ice-cream.png"></img>
                 </div>
