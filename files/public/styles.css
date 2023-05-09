@@ -377,7 +377,7 @@ form > div{
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 411px) {
   .header {
     flex-direction: column;
     height: auto;
