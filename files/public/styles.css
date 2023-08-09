@@ -282,6 +282,7 @@ p {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  z-index: 2;
 }
 
 .second-child {
