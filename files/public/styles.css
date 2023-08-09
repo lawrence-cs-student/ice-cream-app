@@ -27,7 +27,7 @@ li {
 }
 
 nav {
-  max-height: 70%;
+  max-height: 100%;
   display: flex;
   gap: 40%;
   justify-content: center;
