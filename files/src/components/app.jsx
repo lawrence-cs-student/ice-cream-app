@@ -3,7 +3,7 @@ import Navbar from "./navbar";
 import Header from "./header";
 import Feedback from "./feedback";
 import Promotion from "./promotion";
-import Footer from "./footer"
+
 
 
 
@@ -29,7 +29,6 @@ export default function App() {
             <Header />
             <Promotion/>
             <Feedback clicked={handleClick} data={display} change={handleChange} value={feedback}/>
-            <Footer />
         </div>
     ) 
 }
