@@ -5,10 +5,12 @@ import { FaHome, FaFacebookMessenger, FaInstagram, FaSearch } from 'react-icons/
 export default function Navbar() {
     return (
         <div className="navbar">
-            <li><FaHome /></li>
-            <li><FaFacebookMessenger /></li>
-            <li><FaInstagram /></li>
-            <li><FaSearch /></li>
+            <nav>
+                <li><FaHome /></li>
+                <li><FaFacebookMessenger /></li>
+                <li><FaInstagram /></li>
+                <li><FaSearch /></li>
+            </nav>
         </div>
     )
 }
